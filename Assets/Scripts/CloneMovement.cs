@@ -10,7 +10,7 @@ public class CloneMovement : MonoBehaviour
     private Rigidbody2D _playerReference;
     
     public Vector2 playerVelocity;
-    public bool isBlush;
+    public bool isBlush = false;
     
     // Start is called before the first frame update
     void Start()
@@ -22,12 +22,13 @@ public class CloneMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        while (!isBlush)
+        if (!isBlush)
         {
             _cloneRigidbody.velocity = _playerReference.velocity;
         }
     }
 
+    /*
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -35,4 +36,5 @@ public class CloneMovement : MonoBehaviour
             isBlush = true;
         }
     }
+    */
 }
