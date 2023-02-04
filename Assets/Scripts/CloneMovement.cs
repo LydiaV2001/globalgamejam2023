@@ -18,22 +18,20 @@ public class CloneMovement : MonoBehaviour
     void Start()
     {
         _cloneRigidbody = GetComponent<Rigidbody2D>();
-        _cloneSprite = GetComponent<SpriteRenderer>();
+        //_cloneSprite = GetComponent<SpriteRenderer>();
         _playerReference = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
-    {
-        if (!isBlush)
-        {
+    { 
             _cloneRigidbody.velocity = _playerReference.velocity;
-            //_cloneRigidbody.velocity = new Vector2(-_playerReference.velocity.x, -_playerReference.velocity.y);
-        }
+           // _cloneRigidbody.velocity = new Vector2(-_playerReference.velocity.x, -_playerReference.velocity.y);
+        
     }
 
     
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -53,6 +51,6 @@ public class CloneMovement : MonoBehaviour
             _cloneRigidbody.constraints = RigidbodyConstraints2D.None;
             _cloneRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
-    }
+    }*/
     
 }
