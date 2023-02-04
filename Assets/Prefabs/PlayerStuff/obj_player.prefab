@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1647863158269228703}
   - component: {fileID: 1647863158269228702}
-  - component: {fileID: 1647863158269228701}
   - component: {fileID: 1647863158269228688}
   - component: {fileID: 6925565553055653957}
+  - component: {fileID: 1684145742}
   m_Layer: 0
   m_Name: obj_player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -87,24 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1647863158269228701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647863158269228700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae81a01277c2edd75b65a467472458eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPlanted: 0
-  growTime: 0
-  clone: {fileID: 0}
-  plantButton: Fire1
-  currentPlayerState: 0
-  playerSpeed: 5
 --- !u!50 &1647863158269228688
 Rigidbody2D:
   serializedVersion: 4
@@ -139,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -150,5 +132,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &1684145742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647863158269228700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd75afac9378c54fa91589b0eab0cb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlanted: 0
+  growTime: 3
+  clone: {fileID: 8515101357780767451, guid: 9c39bdd2a809cbd53b9cc439bbedff48, type: 3}
+  plantButton: Fire1
+  currentPlayerState: 0
+  playerSpeed: 3
