@@ -9,13 +9,6 @@ public class Timer : MonoBehaviour
     public float timeValue = 10;
     public TMP_Text timerText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (timeValue > 0)
@@ -30,7 +23,7 @@ public class Timer : MonoBehaviour
         DisplayTime(timeValue);
     }
 
-    void DisplayTime(float timeToDisplay)
+    public void DisplayTime(float timeToDisplay)
     {
         if (timeToDisplay < 0)
         {
