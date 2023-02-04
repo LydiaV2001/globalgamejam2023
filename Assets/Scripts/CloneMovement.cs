@@ -11,11 +11,14 @@ public class CloneMovement : MonoBehaviour
     
     public Vector2 playerVelocity;
     public bool isBlush = false;
+
+    private SpriteRenderer _cloneSprite;
     
     // Start is called before the first frame update
     void Start()
     {
         _cloneRigidbody = GetComponent<Rigidbody2D>();
+        _cloneSprite = GetComponent<SpriteRenderer>();
         _playerReference = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
@@ -34,7 +37,9 @@ public class CloneMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isBlush = true;
+            _cloneSprite.color = new Color(1, 1, 1, 0.5f);
             _cloneRigidbody.velocity = new Vector2(0, 0);
+            _cloneRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
     
@@ -43,6 +48,9 @@ public class CloneMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isBlush = false;
+            _cloneSprite.color = new Color(1, 1, 1, 1f);
+            _cloneRigidbody.constraints = RigidbodyConstraints2D.None;
+            _cloneRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
     }
     

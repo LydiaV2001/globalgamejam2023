@@ -559,6 +559,10 @@ PrefabInstance:
       propertyPath: clone
       value: 
       objectReference: {fileID: 8515101357780767451, guid: 9c39bdd2a809cbd53b9cc439bbedff48, type: 3}
+    - target: {fileID: 1647863158269228701, guid: 78d25634cf5919e4da918c057cd7bd0f, type: 3}
+      propertyPath: growTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1647863158269228703, guid: 78d25634cf5919e4da918c057cd7bd0f, type: 3}
       propertyPath: m_RootOrder
       value: 1
