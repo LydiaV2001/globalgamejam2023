@@ -25,8 +25,8 @@ public class CloneMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     { 
-            _cloneRigidbody.velocity = _playerReference.velocity;
-           // _cloneRigidbody.velocity = new Vector2(-_playerReference.velocity.x, -_playerReference.velocity.y);
+            //_cloneRigidbody.velocity = _playerReference.velocity;
+            _cloneRigidbody.velocity = new Vector2(-_playerReference.velocity.x, -_playerReference.velocity.y);
         
     }
 
