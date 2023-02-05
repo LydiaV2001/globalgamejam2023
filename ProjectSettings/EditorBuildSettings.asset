@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level2.unity
     guid: a34d26d8697d16804a7e0d441fb204e7
+  - enabled: 1
+    path: Assets/Scenes/Levels/SuperHard.unity
+    guid: c8ab32ebaec6841ea86655cf52028314
+  - enabled: 1
+    path: Assets/Scenes/Levels/Hard.unity
+    guid: 63290bb89b83c8d60a0cc122d1201c51
   m_configObjects: {}

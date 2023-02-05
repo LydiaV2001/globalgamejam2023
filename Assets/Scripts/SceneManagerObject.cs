@@ -53,6 +53,15 @@ public class SceneManagerObject : MonoBehaviour
     {
         gameOver.SetActive(true);
         clock.SetActive(false);
+        player.SetActive(false);
+        
+        GameObject[] clones = GameObject.FindGameObjectsWithTag("Clone");
+        
+
+        foreach (GameObject clone in clones )
+        {
+            Destroy(clone);
+        }
     }
 
     public void CloneReceived()
@@ -62,6 +71,7 @@ public class SceneManagerObject : MonoBehaviour
         if (_cloneReceived >= clonesNeeded)
         {
             gameWon.SetActive(true);
+            player.SetActive(false);
             clock.SetActive(false);
         }
     }
