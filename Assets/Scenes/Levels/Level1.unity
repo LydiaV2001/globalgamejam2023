@@ -295,6 +295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1053853432}
     m_Modifications:
+    - target: {fileID: 4650643239960019340, guid: 13635ae659b2b489a8c296f8e5500800, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8330097422664773846, guid: 13635ae659b2b489a8c296f8e5500800, type: 3}
       propertyPath: m_Name
       value: Soil 1
@@ -346,6 +350,10 @@ PrefabInstance:
     - target: {fileID: 8330097422664773853, guid: 13635ae659b2b489a8c296f8e5500800, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595500578049379000, guid: 13635ae659b2b489a8c296f8e5500800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13635ae659b2b489a8c296f8e5500800, type: 3}
@@ -2695,7 +2703,7 @@ MonoBehaviour:
   cloneGates: {fileID: 1228290781}
   clock: {fileID: 1821175953}
   timer: {fileID: 1821175955}
-  levelTime: 90
+  levelTime: 60
   info: {fileID: 1731693339}
   gameOver: {fileID: 1429433839}
   gameWon: {fileID: 664714636}
