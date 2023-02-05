@@ -10,6 +10,10 @@ public class Soil : MonoBehaviour
     private SceneManager sceneManager;
     private bool _canPlant = false;
 
+    public GameObject soilGlow;
+    
+    private SpriteRenderer _spriteRenderer;
+
     [SerializeField]
     private GameObject clonePrefab;
     // Start is called before the first frame update
@@ -21,16 +25,23 @@ public class Soil : MonoBehaviour
         
     }
 
+    private void Start()
+    {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if(col.gameObject.tag.Equals("Player"))
             _canPlant = true;
+        soilGlow.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
         if(col.gameObject.tag.Equals("Player") )
             _canPlant = false;
+        soilGlow.SetActive(false);
     }
 
     void OnFire()
