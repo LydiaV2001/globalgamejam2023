@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CloneGate : MonoBehaviour
 {
+    [SerializeField] private SceneManager sceneManager;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class CloneGate : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Clone"))
         {
-            Debug.Log("Delivered");
+            sceneManager.CloneReceived();
             Destroy(col.gameObject);
             Destroy(gameObject);
         }

@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class Mine : MonoBehaviour
 {
+    [SerializeField] private SceneManager sceneManager; 
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,6 @@ public class Mine : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         Destroy(col.gameObject);
-        Debug.Log("Game over");
+        sceneManager.GameOver();
     }
 }

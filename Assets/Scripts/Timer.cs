@@ -9,6 +9,9 @@ public class Timer : MonoBehaviour
     [HideInInspector]
     public float timeValue;
     
+    [SerializeField] private SceneManager sceneManager; 
+    
+    
     private TMP_Text _timerText;
 
     // Start is called before the first frame update
@@ -27,6 +30,8 @@ public class Timer : MonoBehaviour
         else
         {
             timeValue = 0;
+            sceneManager.GameOver();
+            
         }
 
         DisplayTime(timeValue);
