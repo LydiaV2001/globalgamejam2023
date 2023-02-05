@@ -3383,11 +3383,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb17b526b38ce42eeb0b0046200f8200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   cloneGates: {fileID: 1228290781}
   clock: {fileID: 1821175953}
   timer: {fileID: 1821175955}
   levelTime: 300
   info: {fileID: 1731693339}
+  gameOver: {fileID: 0}
+  gameWon: {fileID: 0}
   clonesNeeded: 2
 --- !u!4 &1635558910
 Transform:
@@ -3646,6 +3649,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3707,6 +3714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4996,6 +5007,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 0
