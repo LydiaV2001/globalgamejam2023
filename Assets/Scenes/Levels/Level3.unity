@@ -417,6 +417,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &66501670 stripped
@@ -483,6 +487,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &98706387 stripped
@@ -682,6 +690,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &190559359 stripped
@@ -748,6 +760,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &246060282 stripped
@@ -885,12 +901,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &502788955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5099119135755661106, guid: 12061ab236bc146b781f200844228d89, type: 3}
   m_PrefabInstance: {fileID: 502788954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &664714636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3301452784979574655, guid: 502152bac6c6ff0458a4bebf6a86e295, type: 3}
+  m_PrefabInstance: {fileID: 1717605843}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &689240940
 PrefabInstance:
@@ -951,6 +976,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &689240941 stripped
@@ -1017,6 +1046,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &696304140 stripped
@@ -1394,6 +1427,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &938515405 stripped
@@ -1521,6 +1558,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &948578430 stripped
@@ -1698,6 +1739,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1038649435 stripped
@@ -1797,6 +1842,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1099118613 stripped
@@ -2074,6 +2123,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1259841552 stripped
@@ -2277,6 +2330,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1364366666 stripped
@@ -2379,12 +2436,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1405914965 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5099119135755661106, guid: 12061ab236bc146b781f200844228d89, type: 3}
   m_PrefabInstance: {fileID: 1405914964}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1429433839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141630812116092960, guid: 502152bac6c6ff0458a4bebf6a86e295, type: 3}
+  m_PrefabInstance: {fileID: 1717605843}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1446891138
 PrefabInstance:
@@ -2445,6 +2511,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1446891139 stripped
@@ -2511,6 +2581,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1450569890 stripped
@@ -2577,6 +2651,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1498115484 stripped
@@ -4595,6 +4673,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1533897925 stripped
@@ -4661,6 +4743,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1569575387 stripped
@@ -4727,6 +4813,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1572489698 stripped
@@ -4793,6 +4883,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1597340050 stripped
@@ -4859,6 +4953,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1599188902 stripped
@@ -4895,11 +4993,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb17b526b38ce42eeb0b0046200f8200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 8571356495108681205}
   cloneGates: {fileID: 1228290781}
   clock: {fileID: 1821175953}
   timer: {fileID: 1821175955}
   levelTime: 300
   info: {fileID: 1731693339}
+  gameOver: {fileID: 1429433839}
+  gameWon: {fileID: 664714636}
   clonesNeeded: 2
 --- !u!4 &1635558910
 Transform:
@@ -4975,6 +5076,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1654455576 stripped
@@ -5041,6 +5146,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1678136854 stripped
@@ -5342,6 +5451,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1768960315 stripped
@@ -5356,6 +5469,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5469,6 +5586,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &1784063463 stripped
@@ -5483,6 +5604,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6667,6 +6792,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &2037555303 stripped
@@ -6768,6 +6897,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8651219811717666045, guid: 12061ab236bc146b781f200844228d89, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12061ab236bc146b781f200844228d89, type: 3}
 --- !u!4 &5437834761628227348 stripped
@@ -6785,6 +6918,10 @@ PrefabInstance:
     - target: {fileID: 8571356495209056293, guid: 608900c768e0a4cc2b9b6b21677eb1ad, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571356495209056293, guid: 608900c768e0a4cc2b9b6b21677eb1ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8571356495209056294, guid: 608900c768e0a4cc2b9b6b21677eb1ad, type: 3}
       propertyPath: m_FlipX
@@ -6836,6 +6973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 608900c768e0a4cc2b9b6b21677eb1ad, type: 3}
+--- !u!1 &8571356495108681205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8571356495209056293, guid: 608900c768e0a4cc2b9b6b21677eb1ad, type: 3}
+  m_PrefabInstance: {fileID: 8571356495108681204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8715549230843902864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6843,6 +6985,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228290782}
     m_Modifications:
+    - target: {fileID: 8715549230703056192, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1635558909}
     - target: {fileID: 8715549230703056195, guid: f5a181b73a19e4145847224366e89b0a, type: 3}
       propertyPath: m_RootOrder
       value: 0
