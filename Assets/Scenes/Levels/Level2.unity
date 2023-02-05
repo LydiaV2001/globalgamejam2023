@@ -4999,7 +4999,7 @@ MonoBehaviour:
   cloneGates: {fileID: 1228290781}
   clock: {fileID: 1821175953}
   timer: {fileID: 1821175955}
-  levelTime: 300
+  levelTime: 90
   info: {fileID: 1731693339}
   gameOver: {fileID: 1429433839}
   gameWon: {fileID: 664714636}
