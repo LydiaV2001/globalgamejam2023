@@ -282,6 +282,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8153712376625817046, guid: 29fb10aa8cce2ad4f9690e76347e5590, type: 3}
+      propertyPath: levelList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153712376625817046, guid: 29fb10aa8cce2ad4f9690e76347e5590, type: 3}
+      propertyPath: levelList.Array.data[0]
+      value: level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153712377001417905, guid: 29fb10aa8cce2ad4f9690e76347e5590, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8153712377153173294, guid: 29fb10aa8cce2ad4f9690e76347e5590, type: 3}
       propertyPath: m_Name
       value: MainMenu

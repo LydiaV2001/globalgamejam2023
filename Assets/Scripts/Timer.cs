@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Serialization;
 
 public class Timer : MonoBehaviour
 {
     [HideInInspector]
     public float timeValue;
     
-    [SerializeField] private SceneManager sceneManager; 
+    [FormerlySerializedAs("sceneManager")] [SerializeField] private SceneManagerObject sceneManagerObject; 
     
     
     private TMP_Text _timerText;
@@ -30,7 +31,7 @@ public class Timer : MonoBehaviour
         else
         {
             timeValue = 0;
-            sceneManager.GameOver();
+            sceneManagerObject.GameOver();
             
         }
 

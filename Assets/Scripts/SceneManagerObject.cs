@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class SceneManager : MonoBehaviour
+public class SceneManagerObject : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     

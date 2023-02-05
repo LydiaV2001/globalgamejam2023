@@ -2,12 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Soil : MonoBehaviour
 {
 
-    [SerializeField]
-    private SceneManager sceneManager;
+    [FormerlySerializedAs("sceneManager")] [SerializeField]
+    private SceneManagerObject sceneManagerObject;
     private bool _canPlant = false;
 
     public GameObject soilGlow;
@@ -50,7 +51,7 @@ public class Soil : MonoBehaviour
         {
             var position = transform.position;
             Instantiate(clonePrefab, new Vector2(position.x, position.y), Quaternion.identity);
-            sceneManager.CloneCounter();
+            sceneManagerObject.CloneCounter();
             Destroy(gameObject);
         }
             

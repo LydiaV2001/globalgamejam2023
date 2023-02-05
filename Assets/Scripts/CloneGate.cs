@@ -2,10 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CloneGate : MonoBehaviour
 {
-    [SerializeField] private SceneManager sceneManager;
+    [FormerlySerializedAs("sceneManager")] [SerializeField] private SceneManagerObject sceneManagerObject;
     
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class CloneGate : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Clone"))
         {
-            sceneManager.CloneReceived();
+            sceneManagerObject.CloneReceived();
             Destroy(col.gameObject);
             Destroy(gameObject);
         }
