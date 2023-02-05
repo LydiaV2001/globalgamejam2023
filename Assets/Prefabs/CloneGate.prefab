@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8715549230703056194}
   - component: {fileID: 8715549230703056193}
   - component: {fileID: 8715549230703056192}
+  - component: {fileID: 908006684856276506}
   m_Layer: 0
   m_Name: CloneGate
   m_TagString: Untagged
@@ -124,3 +125,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026e7dbac2b984b7ca6643012b434b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &908006684856276506
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8715549230703056223}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ad16f15872c59e6e9e11bd1e849564f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
